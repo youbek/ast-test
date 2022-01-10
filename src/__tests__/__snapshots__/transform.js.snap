@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should create correct html from AST tree 1`] = `"<div><span></span></div><div></div>"`;
+
+exports[`should pass interview question correctly: 
+div
+    span
+    span
+    img
+div
+    div
+        div
+    div
+ 1`] = `"<div><span></span><span></span><img /></div><div><div><div></div></div><div></div></div>"`;
+
+exports[`should return multiple sibling elements 1`] = `"<div></div><div></div>"`;
+
+exports[`should return nested elements 1`] = `"<div><span></span></div>"`;
